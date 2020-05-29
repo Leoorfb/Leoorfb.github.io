@@ -4,8 +4,10 @@ body {
   font-family: sans-serif;
 }
 
-.particles-js{
-  background:#121920
+#particles-js{
+  background:#121920;
+  width: 100%;
+  height: 100%;
 }
 
 #header{
