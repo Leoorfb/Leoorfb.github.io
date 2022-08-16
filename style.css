@@ -217,6 +217,24 @@ body {
 .services-text{
   color: #0f1425;
 }
+.portifolio-img
+{
+  max-width: 100%;
+  max-height:450px;
+  height:auto;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
 .services-box{
   background-image: linear-gradient(to bottom right, #8490ff , #4cd4e3);
@@ -325,7 +343,7 @@ contact .col-md-4 .fa{
 .social-icons{
   padding-top:50px;
   top:25%;
-  transform:translateY(-50%);
+  /*transform:translateY(-100%);*/
   position:sticky;
   z-index:2;
   width:80px;
