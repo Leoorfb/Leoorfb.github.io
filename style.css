@@ -300,7 +300,7 @@ body {
 }
 
 .contact .row{
-  padding:30px 0;
+  padding:20px 0;
   font-size: 22px;
 }
 contact .col-md-4 .fa{
@@ -308,31 +308,31 @@ contact .col-md-4 .fa{
   font-size: 40px;
 }
 
-.contact .btn{
+.btn{
   padding: 10px 25px 10px 25px;
   margin: 5px;
   border-radius: 30px;
-  border: 2px solid #fff;
+  border: 1px solid #afafaf;
   background:transparent;
 
 }
 
-.contact .btn:focus{
+.btn:focus{
   box-shadow: none !important;
 }
-.contact .btn:hover{
-  border: 2px solid #0f1425 !important;
+.btn:hover{
+  border: 1px solid #0f1425 !important;
   background-image: linear-gradient(to bottom right , #4cd4e3, #8490ff) !important;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   transition: 1s;
 }
 
-.contact .button .fa{
+.button .fa{
   margin-right: 10px;
 }
 
 .icon-hover:hover{
-  font-size: 36px;
+  font-size: 25px;
   color:#8490ff;
   background: -webkit-linear-gradient(#8490ff, #4cd4e3);
   -webkit-background-clip: text;
